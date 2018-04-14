@@ -1,0 +1,11 @@
+version: '2'
+services:
+  app:
+    build: ./
+    image: tls-client-auth:1.0
+    ports:
+      - "8080:80"
+      - "8081:443"
+    restart: always
+    volumes:
+      - ./:/var/www/
