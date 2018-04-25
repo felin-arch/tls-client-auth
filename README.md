@@ -10,7 +10,7 @@ This generates the certificates and sets up apache.
 
 Visit `http://localhost:8080/` and follow the instructions.
 
-## check out the
+## check out the code
 If you need more answers, take a look at the code.
 
 ## wireshark dump
